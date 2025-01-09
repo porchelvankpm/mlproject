@@ -1,6 +1,6 @@
 import sys
-# import logging
-from logger import logging
+#import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
           _,_,exc_tb = error_detail.exc_info()
@@ -18,7 +18,8 @@ class CustomException(Exception):
                                                           error_detail=error_detail)
 
         def __str__(self):
-                return self.error_message  
+                return self.error_message 
+         
 ## check whether error handling is logged or not in logging and exception 
 # if __name__ == "__main__":
 #         try:

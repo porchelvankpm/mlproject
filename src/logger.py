@@ -15,6 +15,6 @@ logging.basicConfig(
           level = logging.INFO,
 
 )
-## to initialize the error in exception handling
+# # to initialize the error in exception handling
 # if __name__ == "__main__":
 #           logging.info("Logging has started")
